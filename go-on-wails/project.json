@@ -1,0 +1,29 @@
+{
+ "name": "go-on-wails",
+ "description": "Enter your project description",
+ "author": {
+  "name": "viculav",
+  "email": "victorcarpenter123@gmail.com"
+ },
+ "version": "0.1.0",
+ "binaryname": "go-on-wails",
+ "frontend": {
+  "dir": "frontend",
+  "install": "npm install",
+  "build": "npm run build",
+  "bridge": "src",
+  "serve": "npm run serve"
+ },
+ "tags": "",
+ "WailsVersion": "",
+ "CrossCompile": false,
+ "Platform": "",
+ "Architecture": "",
+ "LdFlags": "",
+ "GoPath": "",
+ "UseFirebug": false,
+ "platforms": [
+  "linux",
+  "darwin"
+ ]
+}
